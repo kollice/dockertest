@@ -10,6 +10,7 @@ import java.util.Map;
 @Controller
 public class TestController {
 
+
     @GetMapping("/test")
     @ResponseBody
     public Map test() {
